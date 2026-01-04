@@ -27,6 +27,8 @@ for remaining in range(remaining_seconds_a, -1, -1):
     time.sleep(1)
 
 print("\nWork period done! Take a break.")
+
+#countdown loop for break
 for remaining in range(remaining_seconds_b, -1, -1):
     minutes_b = remaining // 60
     seconds_b  = remaining % 60
